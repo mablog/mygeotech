@@ -1,0 +1,116 @@
+.card-image {
+  position: relative;
+  background: white;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 0px 0px 5px 0px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 70%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  transition: transform 250ms;
+}
+
+.card-image p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  /* number of lines to show */
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  color: #666666;
+}
+
+.card-image:hover {
+  transform: translateY(-15px);
+}
+
+.card-image img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  background: #e4e4bb;
+}
+
+.card-image h3 {
+  font-weight: 500;
+}
+
+.card-image h3 a {
+  color: #000;
+}
+
+.card-image .card-detail {
+  padding: 10px 20px 10px 20px;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: 500;
+  color: var(--color-primary);
+}
+
+.card-title p {
+  color: var(--color-primary);
+}
+
+.ISS-card {
+  position: relative;
+}
+
+.ISS-card .star-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  display: block !important;
+}
+
+.ISS-card.disabled {
+  pointer-events: none;
+}
+
+.ISS-card .card-detail .card-title {
+  color: var(--color-accent);
+  animation: all 2s ease-in-out infinite;
+}
+
+.card-ticks {
+  list-style: none;
+  color: var(--color-primary);
+  margin-left: 11px;
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+
+.card-ticks li::before {
+  content: "\2713";
+  /* Unicode for a tick icon */
+  color: green;
+  /* color of the tick icon */
+  font-size: 20px;
+  /* size of the tick icon */
+  margin-right: 10px;
+  /* space between the tick icon and text */
+}
+
+.star-container i {
+  color: #ff8400;
+  background: var(--color-primary);
+  /* color of the star icon */
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  /* hides the stars by default */
+  box-shadow: 2px 2px 5px grey;
+}
+
+@media screen and (width > 1700px) {
+  h3 {
+    font-size: 1.3rem;
+  }
+  li {
+    font-size: 1rem;
+  }
+}

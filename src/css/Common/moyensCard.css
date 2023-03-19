@@ -1,0 +1,23 @@
+.small-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-card-container .link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-card-container h4 {
+  color: var(--color-secondary);
+  font-weight: 400;
+  text-align: center;
+}
+
+.small-card-container span {
+  text-align: center;
+}

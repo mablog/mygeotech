@@ -1,0 +1,18 @@
+/* This is normal size by default */
+.bttn {
+  width: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 12px 16px;
+  border-width: 1px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px -6px rgb(0 0 0 / 12%);
+  text-align: center;
+}
+.btn-secondary {
+  background: var(--color-secondary);
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  filter: brightness(1.75);
+}

@@ -1,0 +1,25 @@
+.highlighted-line {
+  height: 5px;
+  width: 80px;
+  background: var(--color-primary);
+  margin: -10px auto 42px auto;
+  border-radius: 5px;
+}
+.highlighted-line::before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 50px;
+  background: #969da5;
+  margin-left: -49px;
+  border-radius: 5px 0 0 5px;
+}
+.highlighted-line::after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 50px;
+  background: #969da5;
+  margin-left: 79px;
+  border-radius: 0 5px 5px 0;
+}

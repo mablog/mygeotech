@@ -1,0 +1,61 @@
+/* CSS Moyens logiciels */
+.moyens-logiciels {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+}
+
+.moyens-logiciels-content {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+/* CSS Moyens materiels */
+.moyens-materiels-content {
+  background-color: #fff;
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 70%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.moyens-materiels-content .laboratoire {
+  margin-top: 21px;
+}
+
+.moyens-materiels-content .sur-site {
+  margin-top: 100px;
+}
+
+.moyens-materiels-content .title {
+  width: 550px;
+  padding: 15px 10px 10px 10px;
+  background-color: var(--color-secondary);
+  text-align: center;
+}
+
+.moyens-materiels-content .content {
+  width: 100%;
+  min-height: 270px;
+  padding: 10px;
+}
+
+.moyens-items {
+  list-style: none;
+  color: var(--color-primary);
+  margin-left: 11px;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  padding: 30px;
+}
+
+.moyens-items li::before {
+  content: "\2713";
+  /* Unicode for a tick icon */
+  color: green;
+  /* color of the tick icon */
+  font-size: 20px;
+  /* size of the tick icon */
+  margin-right: 10px;
+  /* space between the tick icon and text */
+}
