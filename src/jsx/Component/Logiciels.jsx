@@ -1,5 +1,6 @@
 import { listLogicielsImg } from "../Helper/Constants";
 import MoyensCard from "./Common/MoyensCard"
+
 const Logiciels = () => {
     const listeCards = listLogicielsImg;
     return (
