@@ -1,9 +1,9 @@
 {
   "homepage":"https://mablog.github.io/mygeotech",
   "scripts": {
-    "start": "parcel src/index.html --dist-dir ./public",
-    "build": "parcel build src/index.html --dist-dir ./public",
-    "deploy": "gh-pages -d public" 
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url='./'",
+    "deploy": "gh-pages -d dist" 
   },
   "devDependencies": {
     "gh-pages": "^5.0.0",
