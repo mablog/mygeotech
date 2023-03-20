@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-  import {useEffect } from "react";
+import {useEffect } from "react";
+import logo from '../../../assets/logo.svg';
 
   const Navbar = ({
     anchorNousConnaitreRef,
@@ -28,7 +29,7 @@ import { NavLink } from "react-router-dom";
         <nav className="navbar navbar-expand-lg navbar-dark">
           <div className="top-nav-items">
             <div className="logo-navbar">
-              <img src="https://drive.google.com/uc?id=1KCRdUDvLkpJFNAsppVnJe5-T1i5GyPqV&export=download" width="160" height="80" />
+              <img src={logo} alt="mygeotech logo" width="220"/>
             </div>
             <div className="title-navbar">
               <h1>La géotechnique dans toutes ses dimensions</h1>
