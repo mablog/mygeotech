@@ -4,7 +4,7 @@
 
 .navbar {
   padding: 0;
-  top: 20px;
+  top: 0;
   width: 100%;
   height: auto;
   background: white;
@@ -98,7 +98,7 @@
   position: fixed;
   z-index: 2;
   float: right;
-  margin-top: -10px;
+  margin-top: 0px;
   border-radius: 10px;
 }
 
