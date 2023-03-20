@@ -16,7 +16,7 @@
   /* enable grid container */
   grid-template-columns: 1fr 4fr 1fr;
   width: 100%;
-  padding: 30px 60px;
+  padding: 50px 60px;
 }
 
 .logo-navbar {
@@ -104,6 +104,7 @@
 
 .devis-anm .text-down {
   padding-top: 5px;
+  margin-bottom: 10px;
   color: rgb(237 182 13);
 }
 

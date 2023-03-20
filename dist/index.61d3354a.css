@@ -362,7 +362,7 @@
 .top-nav-items {
   width: 100%;
   grid-template-columns: 1fr 4fr 1fr;
-  padding: 30px 60px;
+  padding: 50px 60px;
   display: grid;
 }
 
@@ -448,6 +448,7 @@
 
 .devis-anm .text-down {
   color: #edb60d;
+  margin-bottom: 10px;
   padding-top: 5px;
 }
 
