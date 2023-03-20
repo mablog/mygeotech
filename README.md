@@ -8,7 +8,7 @@ etapes pour cloner un repo :
 3 - c'est bon
 
 
-lancer parcel plus deployement : 
+deployement : 
 
 1 - npm run build 
 2 - npm run deploy 
