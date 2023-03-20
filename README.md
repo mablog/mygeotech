@@ -7,6 +7,8 @@ etapes pour cloner un repo :
 2 - cnfirmer la connexion avec github 
 3 - c'est bon
 
+create parcel :
+- npm create parcel
 
 deployement : 
 
